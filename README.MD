@@ -54,7 +54,7 @@ Este proyecto contiene tanto el backend (Spring Boot) como el frontend (React + 
    
    La API estará disponible en:http://localhost:8080
 
-## Acceso a los Endpoints
+#### Acceso a los Endpoints
 Los endpoints están protegidos mediante autenticación básica.Para consumirlos es necesario enviar las siguientes credenciales en cada solicitud:
    
       Usuario: user
@@ -71,7 +71,7 @@ Los endpoints están protegidos mediante autenticación básica.Para consumirlos
 
             npm run dev
 
-### La aplicación estará disponible en:http://localhost:5173
+#### La aplicación estará disponible en:http://localhost:5173
 
 Asegurate de que el backend esté ejecutándose correctamente para evitar errores de conexión.
 
