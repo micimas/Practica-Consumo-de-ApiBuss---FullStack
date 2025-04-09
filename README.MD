@@ -41,14 +41,14 @@ Este proyecto contiene tanto el backend (Spring Boot) como el frontend (React + 
    3. Configurar la conexión a la base de datos
    Editá el archivo src/main/resources/application.properties con tus credenciales:
 
-      spring.datasource.url=jdbc:mysql://localhost:3306/buses
-      spring.datasource.username=root
-      spring.datasource.password=yourpassword
+         spring.datasource.url=jdbc:mysql://localhost:3306/buses
+         spring.datasource.username=root
+         spring.datasource.password=yourpassword
 
    4. Ejecutar la aplicación
    Desde la raíz del proyecto:
 
-      ./mvnw spring-boot:run
+         ./mvnw spring-boot:run
    
    La API estará disponible en:http://localhost:8080
 
@@ -63,15 +63,16 @@ Los endpoints están protegidos mediante autenticación básica.Para consumirlos
    1. Instalar dependencias
       Desde la raíz del proyecto del frontend:
 
-         npm install
+            npm install
 
    2. Ejecutar en modo desarrollo
 
-      npm run dev
+         npm run dev
 
 ### La aplicación estará disponible en:http://localhost:5173
 
 Asegurate de que el backend esté ejecutándose correctamente para evitar errores de conexión.
+
 Autenticación básica integrada:El frontend envía automáticamente las credenciales al consumir la API.
    Credenciales de acceso:
 
