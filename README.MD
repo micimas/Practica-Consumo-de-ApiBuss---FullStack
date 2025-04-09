@@ -40,10 +40,14 @@ Este proyecto contiene tanto el backend (Spring Boot) como el frontend (React + 
 
 ### Backend - Spring Boot
    1. Clonar el repositorio
+
    Asegúrate de tener Java 21 y MySQL instalados en tu sistema.
+
    2. Crear la base de datos
-      CREATE DATABASE buses;
-   3. Configurar la conexión a la base de datos
+
+            CREATE DATABASE buses;
+
+3. Configurar la conexión a la base de datos
    
       Editá el archivo src/main/resources/application.properties con tus credenciales:
 
