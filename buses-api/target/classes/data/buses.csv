@@ -1,0 +1,33 @@
+numeroBus,placa,caracteristicas,marca,activo
+001,ABC-123,WiFi y aire,Volvo,true
+002,XYZ-456,TV y baño,Scania,false
+003,DEF-789,Panorámico,Fiat,true
+004,GHI-321,WiFi y aire,Audi,true
+005,LMN-654,TV y baño,Toyota,false
+006,OPQ-987,Panorámico,BMW,true
+007,RST-111,WiFi y aire,Ford,true
+008,UVW-222,TV y baño,Mercedes,false
+009,XYZ-333,Panorámico,Kia,true
+010,AAA-444,WiFi y aire,Chevrolet,true
+011,BBB-555,TV y baño,Nissan,false
+012,CCC-666,Panorámico,Hyundai,true
+013,DDD-777,WiFi y aire,Volvo,true
+014,EEE-888,TV y baño,Peugeot,false
+015,FFF-999,Panorámico,Renault,true
+016,GGG-000,WiFi y aire,Ford,true
+017,HHH-111,TV y baño,Suzuki,false
+018,III-222,Panorámico,Volkswagen,true
+019,JJJ-333,WiFi y aire,Mercedes,true
+020,KKK-444,TV y baño,Chevrolet,false
+021,LLL-555,Panorámico,Audi,true
+022,MMM-666,WiFi y aire,BMW,true
+023,NNN-777,TV y baño,Toyota,false
+024,OOO-888,Panorámico,Nissan,true
+025,PPP-999,WiFi y aire,Peugeot,true
+026,QQQ-000,TV y baño,Renault,false
+027,RRR-111,Panorámico,Hyundai,true
+028,SSS-222,WiFi y aire,Volkswagen,true
+029,TTT-333,TV y baño,Suzuki,false
+030,UUU-444,Panorámico,Ford,true
+031,VVV-555,WiFi y aire,Chevrolet,true
+032,WWW-666,TV y baño,Kia,false

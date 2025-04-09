@@ -1,0 +1,83 @@
+# Ignorar archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios generados por Maven en el backend (Spring Boot)
+/api-buses/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignorar directorios generados por Gradle (si se usa)
+**/build/
+
+# Ignorar los archivos de configuración de IDEs para Java (Eclipse, IntelliJ, NetBeans, etc.)
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Ignorar archivos de configuración específicos de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignorar directorios generados por Vite en el frontend (React)
+/buses-frontend/node_modules/
+/buses-frontend/dist/
+/buses-frontend/.vite/
+
+# Ignorar archivos de configuración de Vite
+/buses-frontend/.env
+/buses-frontend/.env.local
+/buses-frontend/.env.*.local
+
+# Ignorar dependencias locales de Node.js
+/buses-frontend/package-lock.json
+/buses-frontend/yarn.lock
+
+# Ignorar archivos de caché de Yarn
+/buses-frontend/.yarn/
+/buses-frontend/.pnp.*
+
+# Ignorar directorios de dependencias de npm
+/buses-frontend/node_modules/
+
+# Ignorar configuraciones específicas de frontend para pruebas
+/buses-frontend/coverage/
+
+# Ignorar archivos generados por Vite en producción
+/buses-frontend/dist/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de entorno (se recomienda no subir .env a Git)
+.env
+
+# Ignorar archivos temporales
+*.swp
+*~
+
+# Ignorar carpetas de pruebas y cobertura de test
+/buses-frontend/coverage/
+
+# Ignorar archivos de base de datos locales
+*.sqlite
+*.db
+*.log
+
+# Ignorar archivos de caché y otros archivos temporales generados por la compilación
+*.bak
+*.tmp
