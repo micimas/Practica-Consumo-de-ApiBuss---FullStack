@@ -26,9 +26,14 @@ Este es un sistema de consumo de api de buses que permite almacenar, consultar y
 
 1. **GET /bus**  
    Obtiene la lista de todos los buses registrados en la base de datos paginado de forma predetermiando 0 con un tamaño de 10.
-   url:
-1. **GET /bus/id**  
+
+         url: http://localhost:8080/bus?page=0&size=5
+
+2. **GET /bus/id**  
     Obtiene la información detallada de un bus por su ID.
+
+         url: http://localhost:8080/bus/1
+
 
 ## Instrucciones de Ejecución
 Este proyecto contiene tanto el backend (Spring Boot) como el frontend (React + Vite) en la misma carpeta raíz. A continuación se detallan los pasos para ejecutar cada parte correctamente.
@@ -75,7 +80,9 @@ Los endpoints están protegidos mediante autenticación básica.Para consumirlos
 
 Asegurate de que el backend esté ejecutándose correctamente para evitar errores de conexión.
 
-Autenticación básica integrada:El frontend envía automáticamente las credenciales al consumir la API.
+#### Autenticación básica integrada
+
+El frontend envía automáticamente las credenciales al consumir la API.
 
    Credenciales de acceso:
 
